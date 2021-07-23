@@ -230,7 +230,7 @@ header:hover {
 
 .poster {
   width: 100%;
-  background-image: url("/img/pexels-samuel-silitonga-694587.jpg");
+  background-image: url("../img/pexels-samuel-silitonga-694587.jpg");
   background-position: center;
   background-size: cover;
   height: inherit;
