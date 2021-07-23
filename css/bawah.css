@@ -1,0 +1,67 @@
+.list{
+  padding-bottom: 80px;
+  text-align: center;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 11px;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list-content{
+  align-content: center;
+}
+
+
+.content {
+  float: left;
+  width: 23%;
+  background-color: white;
+  margin: 5%;
+  padding-bottom: 15px;
+}
+
+
+.penjelasan {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  color: black;
+}
+
+
+.gambar{
+  position: relative;
+}
+
+.bttn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.bttn:hover{
+  opacity: 0.7;
+}
+
+.masuk{
+  padding: 9px 24px;
+  background-color: #FF8426;
+  cursor: pointer;
+  box-shadow: 0 3px #331b09;
+}
+
+.masuk:active{
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
+
+
+

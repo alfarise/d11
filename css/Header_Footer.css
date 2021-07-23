@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: verdana, sans-serif;
+}
+/* .container { 
+    width: px;
+}*/
+
+/* HEADER sampai baris 44 */
+header { 
+    background-color: rgba(255, 132, 38, 0.2);
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s;
+    z-index: 3;
+}
+header:hover {
+    background-color: rgba(255, 132, 38, 1);
+
+}
+.header-left {
+    float: left;
+    padding-left: 50px;
+    line-height: 55px;
+    font-size: 32px;
+}
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+.header-right a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 55px;
+    float: right;
+    padding: 0px 18px;
+    transition: all 0.3s;
+}
+.header-right a:hover {
+    background-color: rgb(186, 175, 146, 0.7);
+}
+.top-wrapper {
+    padding: 300px 0px;
+    background-image: url(img/topimg6.jpg);
+    background-size: cover;
+}
+.bottom-wrapper {
+    background-color: #F5FAE8;
+    height: 400px;
+    margin-top: 20px;
+}
+                        /* FOOTER sampai baris akhir */
+footer { 
+    height: 170px;
+    background-color: #faf9f8;
+    color: rgba(97, 96, 96, 0.699);
+    border-top: 1px solid #5c574e;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.list a {
+    text-decoration: none;
+    display: block;
+    color: grey;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.media p {
+    text-align: center;
+}
+.media .fa {
+    text-decoration: none;
+    margin: 0px 8px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}

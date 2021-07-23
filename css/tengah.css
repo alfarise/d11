@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  z-index: 0;
+}
+.container {
+  margin: 0% 5%;
+  display: flex;
+}
+
+/* MAIN 2 */
+.main-1 {
+    margin: 25px 0px;
+  }
+  .main-1 .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .gambar-1 img {
+    width: 500px;
+  }
+  .isi-1 {
+    margin-left: 90px;
+    margin-top: 70px;
+  }
+  .isi-1 h2 {
+    font-weight: 700;
+  }
+  .isi-1 p {
+    margin: 20px 0px;
+    text-align: justify;
+  }
+  /* AKHIR MAIN 2 */
+  
+ 

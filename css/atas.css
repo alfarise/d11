@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  z-index: 0;
+}
+
+.container {
+  margin: 0% 5%;
+  display: flex;
+}
+
+/* ATAS */
+.bg-atas {
+  width: 100%;
+  background-image: url("/img/pexels-oliver-sjöström-931018.jpg");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 45%;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.text {
+  width: 360px;
+}
+.text h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.btn {
+  margin: 10px 0px;
+  display: inline-block;
+  border: none;
+  width: 120px;
+  color: white;
+  background-color: #ff8426;
+  height: 30px;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.btn:hover {
+  background-color: #fc9b51;
+}
+/* AKHIR ATAS */
